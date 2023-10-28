@@ -60,21 +60,21 @@ puts "Is number_students less than or equal to 21?", number_students<=21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Explain. Asking if the integer 4 is less than the integer 9. Should print true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Explain. Asking if the integer 4 is less than the integer 3. Should print false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Explain. Asking if the integer 6 is greater than the integer 2. Should print true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Explain. Asking if the integer 9 does not equal the integer 8. Should print true
 
 
 #-------------------
@@ -94,18 +94,19 @@ loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
+is_a_puppy = true 
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+"This dog loves to play and loves treats?", loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+"Does this dog loves to play and loves the dog park?", loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+"Does this dog love to play or love the dog park?", loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+"Is this dog a puppy who loves to play?", loves_to_play && is_a_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
