@@ -108,6 +108,6 @@ puts "Does this dog love to play or love the dog park?", loves_to_play || loves_
 
 # Determine if the dog loves to play and is a puppy
 puts "Is this dog a puppy who loves to play?", loves_to_play && is_a_puppy
-end
+
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
