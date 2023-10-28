@@ -41,7 +41,7 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 2
+num_quarters = 6
 if num_quarters<2
   p "Looks like you need more quarters!"
 elsif num_quarters>=4
