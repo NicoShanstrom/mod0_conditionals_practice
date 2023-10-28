@@ -41,7 +41,17 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
+num_quarters = 2
+if num_quarters<2
+  p "Looks like you need more quarters!"
+elsif num_quarters>=4
+  p "Buy a gumball for a friend!"
+elsif num_quarters==2
+  p "You can buy one gumball!"
+elsif num_quarters>3
+  p "You can buy at least one gumball!"
+else 
+  p "We only take quarters, sorry!"
 
 puts "I have enough money for a gumball"
 puts "I don't have enough money for a gumball"
