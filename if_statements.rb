@@ -83,4 +83,6 @@ elsif cups_of_flour=2 && has_sauce=true
   p "I can make pizza!"
 elsif cups_of_flour=3 && has_sauce=true
   p "I can make pizza!"
+elsif cups_of_flour=5 && has_sauce=true
+  p "I can make pizza!"
 end
