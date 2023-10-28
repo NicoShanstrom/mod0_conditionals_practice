@@ -52,6 +52,7 @@ elsif num_quarters>3
   p "You can buy at least one gumball!"
 else 
   p "We only take quarters, sorry!"
+end
 
 puts "I have enough money for a gumball"
 puts "I don't have enough money for a gumball"
